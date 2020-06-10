@@ -10,7 +10,7 @@ import { CadastradoPage } from '../pages/cadastrado/cadastrado';
 import { ConsultaAgendadaPage } from '../pages/consulta-agendada/consulta-agendada';
 import { MinhasInformaEsPage } from '../pages/minhas-informa-es/minhas-informa-es';
 import { NovoAgendamentoPage } from '../pages/novo-agendamento/novo-agendamento';
-
+import { MenuPage } from '../pages/menu/menu';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +25,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CadastradoPage,
     ConsultaAgendadaPage,
     MinhasInformaEsPage,
-    NovoAgendamentoPage
+    NovoAgendamentoPage,
+    MenuPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +42,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CadastradoPage,
     ConsultaAgendadaPage,
     MinhasInformaEsPage,
-    NovoAgendamentoPage
+    NovoAgendamentoPage,
+    MenuPage
   ],
   providers: [
     StatusBar,

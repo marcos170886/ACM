@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 import { ConsultasPage } from '../consultas/consultas';
 import { NovoAgendamentoPage } from '../novo-agendamento/novo-agendamento';
 import { ConsultaAgendadaPage } from '../consulta-agendada/consulta-agendada';
-import { ConsultasPage } from '../consultas/consultas';
+
 
 @Component({
   selector: 'page-tabs-controller',

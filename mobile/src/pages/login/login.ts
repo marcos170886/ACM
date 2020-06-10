@@ -5,7 +5,7 @@ import { NovoAgendamentoPage } from '../novo-agendamento/novo-agendamento';
 import { ConsultaAgendadaPage } from '../consulta-agendada/consulta-agendada';
 import { CadastroPage } from '../cadastro/cadastro';
 import { CadastradoPage } from '../cadastrado/cadastrado';
-import { LoginPage } from '../login/login';
+
 
 @Component({
   selector: 'page-login',

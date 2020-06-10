@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ConsultaAgendadaPage } from '../consulta-agendada/consulta-agendada';
 import { ConsultasPage } from '../consultas/consultas';
-import { NovoAgendamentoPage } from '../novo-agendamento/novo-agendamento';
+
 
 @Component({
   selector: 'page-novo-agendamento',
