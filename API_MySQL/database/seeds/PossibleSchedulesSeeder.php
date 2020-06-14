@@ -11,74 +11,55 @@ class PossibleSchedulesSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('possible_schedules')->insert([
+       DB::table('possible_schedules')->insert([
             'id'=> 1,
-            'time' => '7:00'
-        ]);
-
-        DB::table('possible_schedules')->insert([
-            'id'=> 2,
             'time' => '8:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 3,
+            'id'=> 2,
             'time' => '9:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 4,
+            'id'=> 3,
             'time' => '10:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 5,
+            'id'=> 4,
             'time' => '11:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 6,
+            'id'=> 5,
             'time' => '13:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 7,
+            'id'=> 6,
             'time' => '14:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 8,
+            'id'=> 7,
             'time' => '15:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 9,
+            'id'=> 8,
             'time' => '16:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 10,
+            'id'=> 9,
             'time' => '17:00'
         ]);
 
         DB::table('possible_schedules')->insert([
-            'id'=> 11,
+            'id'=> 10,
             'time' => '18:00'
         ]);
 
-        DB::table('possible_schedules')->insert([
-            'id'=> 12,
-            'time' => '19:00'
-        ]);
-
-        DB::table('possible_schedules')->insert([
-            'id'=> 13,
-            'time' => '20:00'
-        ]);
-
-        DB::table('possible_schedules')->insert([
-            'id'=> 14,
-            'time' => '21:00'
-        ]);
     }
 }
