@@ -13,30 +13,30 @@ class ServicesSeeder extends Seeder
     {
         DB::table('services')->insert([
             'id'=> 1,
-            'serviceName' => 'Manicure',
-            'serviceDescription'=> 'Corta e pinta',
-            'nameOfProfession' => 'Manicure',
+            'serviceName' => 'Pediatria',
+            'serviceDescription'=> 'Tratamento de crianças',
+            'nameOfProfession' => 'Pediatra',
         ]);
 
         DB::table('services')->insert([
             'id'=> 2,
-            'serviceName' => 'Massoterapia',
-            'serviceDescription'=> 'As melhores massagens da cidade!',
-            'nameOfProfession' => 'Massoterapeuta',
+            'serviceName' => 'Ortopedia',
+            'serviceDescription'=> 'Tratamento do sistema locomotor',
+            'nameOfProfession' => 'Ortopedista',
         ]);
 
         DB::table('services')->insert([
             'id'=> 3,
-            'serviceName' => 'Cabelo',
-            'serviceDescription'=> 'Cortes, pinturas, hidratações e muito mais!',
-            'nameOfProfession' => 'Cabeleireiro',
+            'serviceName' => 'Clinico Geral',
+            'serviceDescription'=> 'Tratamento de adultos',
+            'nameOfProfession' => 'Clinico',
         ]);
 
         DB::table('services')->insert([
             'id'=> 4,
-            'serviceName' => 'Limpeza de pele',
-            'serviceDescription'=> '',
-            'nameOfProfession' => 'Esteticista',
+            'serviceName' => 'Cardiologia',
+            'serviceDescription'=> 'Tratamento do coração',
+            'nameOfProfession' => 'Cardiologista',
         ]);
 
 
