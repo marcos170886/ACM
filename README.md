@@ -1,12 +1,12 @@
 ## ACM
- Software de Agendamento de Consulta Médica.
+## Software de Agendamento de Consulta Médica.
 
-Funcionalidades.
-Registro e Login.
-Ver serviços disponíveis.
-Ver profissionais e seus respectivos horários disponíveis.
-Marcar e cancelar um horário.
-Ver horários já finalizados.
+## Funcionalidades.
+- Registro e Login.
+- Ver serviços disponíveis.
+- Ver profissionais e seus respectivos horários disponíveis.
+- Marcar e cancelar um horário.
+- Ver horários já finalizados.
 
 ## Serviços
 
