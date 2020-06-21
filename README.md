@@ -9,7 +9,7 @@
 - Ver horários já finalizados.
 
 ## Do uso de Hardware
-- Versão Mobile necessário do uso dos recursos de trnasmissão de dados móveis do smartphone para funcionamento.
+- Versão Mobile necessário do uso dos recursos de transmissão de dados móveis do smartphone para funcionamento.
 
 ## Serviços
 
