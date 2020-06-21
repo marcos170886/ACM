@@ -8,6 +8,9 @@
 - Marcar e cancelar um horário.
 - Ver horários já finalizados.
 
+## Do uso de Hardware
+- Versão Mobile necessário do uso dos recursos de trnasmissão de dados móveis do smartphone para funcionamento.
+
 ## Serviços
 
 O Back-End do aplicativo foi feito em PHP + LARAVEL + MYSQL. Está hospedado no heroku https://acmsys.herokuapp.com e também disponível no github https://github.com/marcos170886/ACM/tree/master/API_MySQL
