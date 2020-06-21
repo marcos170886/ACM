@@ -19,6 +19,9 @@ abstract class _ProfessionalModelBase with Store {
   @observable
   String professionalPhone;
 
+  @action
+  setProfPhone(String value) => professionalPhone = value;
+ 
   @computed
   bool get buttonValid{
     return validateProfName() == null;
@@ -31,7 +34,17 @@ abstract class _ProfessionalModelBase with Store {
 
     return null;
   }
+ bool get buttonValid2{
+    return validateProfPhone() == null;
+  }
 
+  String validateProfPhone() {
+    if (professionalName == null || professionalName.isEmpty) {
+      return "";
+    }
+
+    return null;
+  }
   _ProfessionalModelBase({this.id, this.professionalName, this.professionalPhone});
 
   _ProfessionalModelBase.fromJson(Map<String, dynamic> json) {

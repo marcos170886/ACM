@@ -35,6 +35,7 @@ abstract class _HomeControllerBase with Store {
 
   
   Future loginUser(ClienteModel data) async{
+    
     return await repository.loginUser(data);
   }
 

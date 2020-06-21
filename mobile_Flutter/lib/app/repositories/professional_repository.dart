@@ -16,7 +16,7 @@ class ProfessionalRepository extends Disposable {
   // Retorna o ID do profissional
   Future getIdByName(String name) async {
     name = name.toString();
-    String nameIdURL =
+     String nameIdURL =
         "https://acmsys.herokuapp.com/api/v1/professional/id/$name";
 
     var dio = CustomDio.withAuthentication().instance;
@@ -27,7 +27,7 @@ class ProfessionalRepository extends Disposable {
       return 0;
     });
   }
-
+ 
   // Lista de profissionais de cada serviço
   Future<List<ProfessionalModel>> professionalsByService(String service) async {
     String url =

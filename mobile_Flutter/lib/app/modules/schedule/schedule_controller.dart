@@ -35,6 +35,8 @@ abstract class _ScheduleControllerBase with Store {
     return await professionalRepository.getIdByName(name);
   }
 
+
+
   Future getScheduledTime(String date, String profId) async {
     return await professionalRepository.scheduledTime(date, profId);
   }
@@ -44,6 +46,7 @@ abstract class _ScheduleControllerBase with Store {
   }
 
   Future makeScheduleProfessional(MakeScheduleProfessionalModel data, String id) async {
+    
     return await professionalRepository.makeScheduleByProfessional(data, id);
   }
 

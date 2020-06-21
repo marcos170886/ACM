@@ -1,4 +1,5 @@
 import 'package:acmsys/app/components/shared_widgets.dart';
+import 'package:acmsys/app/models/professional_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -94,7 +95,7 @@ LinearGradient(colors: [Color(0xFF00A1FD), Color(0xFF00A1FD)]),
                         builder: (_) {
                           var listOfSchedules =
                               controller.listSchedulesClient.value;
-
+   
                           if (controller.listSchedulesClient.value == null) {
                             return Center(child: CircularProgressIndicator());
                           }
@@ -137,7 +138,7 @@ LinearGradient(colors: [Color(0xFF00A1FD), Color(0xFF00A1FD)]),
                                             title: Text(
                                                 'Dia : ${listOfSchedules[index].date} \nHorario : ${listOfSchedules[index].time}'),
                                             subtitle: Text(
-                                                'Nome do profissional : ${listOfSchedules[index].professionalName} \nServiço : ${listOfSchedules[index].serviceName}'),
+                                                'Profissional : \n${listOfSchedules[index].professionalName} \nServiço : ${listOfSchedules[index].serviceName}'),
                                           ),
                                         ),
                                         SizedBox(

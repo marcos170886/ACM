@@ -22,12 +22,17 @@ class MakeScheduleClientModel {
   @action
   setScheduleServiceName(String value) => serviceName = value;
  
+   @observable
+  String professionalPhone;
+  @action
+  setScheduleProfPhone(String value) => professionalPhone = value;
   
   MakeScheduleClientModel(
       {this.date,
       this.time,
       this.professionalName,
       this.serviceName,
+      this.professionalPhone
       });
 
   MakeScheduleClientModel.fromJson(Map<String, dynamic> json) {
@@ -35,6 +40,7 @@ class MakeScheduleClientModel {
     time = json['time'];
     professionalName = json['professionalName'];
     serviceName = json['serviceName'];
+    professionalPhone = json['professionalPhone'];
     
   }
 
@@ -44,6 +50,7 @@ class MakeScheduleClientModel {
     data['time'] = this.time;
     data['professionalName'] = this.professionalName;
     data['serviceName'] = this.serviceName;
+     data['professionalPhone'] = this.professionalPhone;
     
     return data;
   }

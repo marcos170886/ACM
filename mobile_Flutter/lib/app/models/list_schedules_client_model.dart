@@ -4,8 +4,9 @@ class ListSchedulesModel {
   String time;
   String professionalName;
   String serviceName;
+  String professionalPhone;
 
-  ListSchedulesModel({this.date, this.time, this.professionalName, this.serviceName});
+  ListSchedulesModel({this.date, this.time, this.professionalName, this.serviceName, this.professionalPhone});
 
   ListSchedulesModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
@@ -13,6 +14,7 @@ class ListSchedulesModel {
     time = json['time'];
     professionalName = json['professionalName'];
     serviceName = json['serviceName'];
+    professionalPhone = json['professionalPhone'];
   }
 
   Map<String, dynamic> toJson() {
@@ -22,6 +24,7 @@ class ListSchedulesModel {
     data['time'] = this.time;
     data['professionalName'] = this.professionalName;
     data['serviceName'] = this.serviceName;
+    data['professionalPhone'] = this.professionalPhone;
     return data;
   }
 }

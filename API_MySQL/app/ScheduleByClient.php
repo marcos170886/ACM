@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class ScheduleByClient extends Model
 {
     protected $fillable = [
-        'date', 'time', 'professionalName', 'serviceName'
+        'date', 'time', 'professionalName', 'serviceName', 'professionalPhone'
     ];
 
     protected $casts = [

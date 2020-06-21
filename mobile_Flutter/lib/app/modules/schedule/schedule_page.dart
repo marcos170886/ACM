@@ -7,11 +7,14 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:gradient_app_bar/gradient_app_bar.dart';
 import 'schedule_controller.dart';
 
+
+
 class SchedulePage extends StatefulWidget {
   final String title;
   final String nameOfProfession;
+  final String phoneOfProfession;
 
-  const SchedulePage({Key key, this.title = "Schedule", this.nameOfProfession})
+  const SchedulePage({Key key, this.title = "Schedule", this.nameOfProfession, this.phoneOfProfession})
       : super(key: key);
 
   @override
@@ -134,7 +137,7 @@ class _SchedulePageState
                         int id = int.parse(idString);
                         controller.professional.setProfId(id);
                         controller.makeScheduleClient.setScheduleProfName(_);
-                      },
+                       },
                       icon: Icon(
                         Icons.arrow_downward,
                         size: 30,
@@ -142,6 +145,7 @@ class _SchedulePageState
                       ),
                       style: TextStyle(fontSize: 30, color: Colors.black),
                       value: controller.professional.professionalName),
+                                          
                 ),
                 Components.divider(),
                 SizedBox(
@@ -203,7 +207,7 @@ class _SchedulePageState
         context: context,
         initialDate: DateTime.now(),
         //locale: Locale('pt'),
-        firstDate: DateTime.now().subtract(Duration(days: 1)),
+        firstDate: DateTime.now().subtract(Duration(days: 0)),
         lastDate: DateTime.now().add(Duration(days: 365)));
 
     if (picked != null) {
@@ -250,6 +254,7 @@ class _SchedulePageState
                   child: Text("Confirmar"))
             ],
           );
+          
         });
   }
 }
