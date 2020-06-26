@@ -9,8 +9,16 @@
 - Ver horários já finalizados.
 
 ## Do uso de Hardware
-- Versão Mobile necessário do uso dos recursos de transmissão de dados móveis do smartphone para funcionamento.
+- Versão Mobile necessário do uso dos recursos de transmissão de dados móveis ou wi-fi com acesso a internet do smartphone para funcionamento.
 
 ## Serviços
 
 O Back-End do aplicativo foi feito em PHP + LARAVEL + MYSQL. Está hospedado no heroku https://acmsys.herokuapp.com e também disponível no github https://github.com/marcos170886/ACM/tree/master/API_MySQL
+
+Componentes do Grupo:
+
+Marcos Antonio Cordeiro Junior
+Lucas Santana Monteiro
+Nilton Mitsuharu Sugawara
+Wiliana Santiago dos Santos
+
