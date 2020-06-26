@@ -15,10 +15,10 @@
 
 O Back-End do aplicativo foi feito em PHP + LARAVEL + MYSQL. Está hospedado no heroku https://acmsys.herokuapp.com e também disponível no github https://github.com/marcos170886/ACM/tree/master/API_MySQL
 
-Componentes do Grupo:
+##Componentes do Grupo:
 
-Marcos Antonio Cordeiro Junior
-Lucas Santana Monteiro
-Nilton Mitsuharu Sugawara
-Wiliana Santiago dos Santos
+- Marcos Antonio Cordeiro Junior
+- Lucas Santana Monteiro
+- Nilton Mitsuharu Sugawara
+- Wiliana Santiago dos Santos
 
